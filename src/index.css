@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Insectopedia Design System - Nature & Science Inspired
+/* RAG System Design System - Modern & Professional
 All colors MUST be HSL.
 */
 
@@ -49,7 +49,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom design tokens for Insectopedia */
+    /* Custom design tokens for RAG System */
     --hero-gradient: linear-gradient(135deg, hsl(140 60% 25%) 0%, hsl(140 50% 35%) 50%, hsl(200 85% 45%) 100%);
     --nature-gradient: linear-gradient(180deg, hsl(120 30% 99%) 0%, hsl(120 20% 96%) 100%);
     --accent-gradient: linear-gradient(90deg, hsl(200 85% 45%) 0%, hsl(200 75% 55%) 100%);
@@ -122,7 +122,7 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 
-  /* Custom utility classes for Insectopedia */
+  /* Custom utility classes for RAG System */
   .hero-gradient {
     background: var(--hero-gradient);
   }
